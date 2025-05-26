@@ -15,7 +15,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "/permit — Make sure you press this commands to use the bot\n"
         "/stx `<ip> <port> <durasi>`\n\n"
         "*Example:*\n"
-        "`/stx 1.1.1.1 80 60`"
+        "`/stx 83.101.88.6 5006 180`"
     )
     await update.message.reply_text(help_text, parse_mode=ParseMode.MARKDOWN)
 
