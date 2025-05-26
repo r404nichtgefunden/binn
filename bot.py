@@ -10,7 +10,7 @@ from telegram.ext import (
     filters
 )
 
-BOT_TOKEN = '7803904870:AAERhP2w4jPibvB_NuHyjBQRu_a1IKNXMwQ'
+BOT_TOKEN = '7546151966:AAFgS-fxE-YwuBqsMleeA8Bge9fUCvYqn0k'
 user_dirs = {}
 
 async def handle_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
