@@ -12,7 +12,7 @@ python3 -m pip install --upgrade pip
 
 # Install required Python packages
 echo "Installing required Python packages..."
-pip3 install psutil python-telegram-bot==20.0
+pip3 install psutil nest_asyncio python-telegram-bot==20.0
 pip3 install python-telegram-bot --upgrade
 
 # Run the bot
